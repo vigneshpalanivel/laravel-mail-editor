@@ -50,7 +50,7 @@
                                 	</tr>
 				    			@endif
 
-				    				<tr>
+				    				{{--<tr>
 	                                    <td class="table-fit font-weight-sixhundred">From</td>
 	                                    <td><a href="mailto:{{ !collect($resource['data']->from)->isEmpty() ? collect($resource['data']->from)->first()['address'] : config('mail.from.address') }}" class="badge badge-info mr-1 font-weight-light">
 	                                    	@if (!collect($resource['data']->from)->isEmpty())
@@ -101,6 +101,7 @@
                                     </td>
                                 </tr>
                                 @endif
+                                --}}
                             </tbody>
                         </table>
                     </div>
