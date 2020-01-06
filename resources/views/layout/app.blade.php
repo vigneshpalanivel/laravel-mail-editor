@@ -57,7 +57,7 @@
                   request()->route()->getName() !== 'viewTemplate'
                 )
 
-                @include('maileclipse::layout.sidebar')
+                {{--@include('maileclipse::layout.sidebar')--}}
 
             @endif
 
