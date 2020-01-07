@@ -68,7 +68,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-12">
+                <div class="col-lg-12 col-md-12">
                     <div class="card mb-2">
                         <div class="card-header p-3" style="border-bottom:1px solid #e7e7e7e6;">
                             <button type="button" class="btn btn-success float-right save-template">Update</button>
@@ -152,7 +152,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3 d-none d-lg-block">
+                {{--<div class="col-lg-3 d-none d-lg-block">
                     <div class="card">
                         <div class="card-header"><h5>Details</h5></div>
                         <div class="card-body">
@@ -160,10 +160,10 @@
                             <p style="font-size: .9em;"><b class="font-weight-sixhundred">Namespace:</b> {{ $templateData['namespace'] }}</p>
                             <p style="font-size: .9em;"><b class="font-weight-sixhundred">{{ $templateData['is_markdown'] ? 'Markdown' : 'View' }}:</b> {{ $templateData['template_name'] }}</p>
                             <!-- <p class="text-danger"><i class="fas fa-trash align-middle"></i><a href="#">Send to trash</a></p> -->
-                            {{-- <p class="text-danger"><i class="fas fa-trash"></i> Delete Template</p> --}}
+                             <p class="text-danger"><i class="fas fa-trash"></i> Delete Template</p>
                         </div>
                     </div>
-                </div>
+                </div>--}}
             </div>
         </div>       
  </div>
