@@ -25,14 +25,14 @@
                                         {{ $resource['name'] }}
                                     </td>
                                 </tr>
-                                <tr>
+                                {{--<tr>
                                     <td class="table-fit font-weight-sixhundred">Namespace</td>
                                     <td>
                                         {{ $resource['namespace'] }}
                                     </td>
                                 </tr>
 
-                                {{--@if ( !empty($resource['data']->subject) )
+                                @if ( !empty($resource['data']->subject) )
 				    				<tr>
 	                                    <td class="table-fit font-weight-sixhundred">Subject</td>
 	                                    <td>
