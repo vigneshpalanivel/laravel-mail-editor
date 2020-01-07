@@ -13,7 +13,7 @@ Route::group(['prefix' => 'templates'], function () {
     Route::post('preview', 'TemplatesController@previewTemplateMarkdownView')->name('previewTemplateMarkdownView');
 });
 
-Route::group(['prefix' => 'mailables'], function () {
+Route::group(['prefix' => 'mailables','middleware'=>'mail_auth_check:email_settings'], function () {
     Route::get('/', 'MailablesController@index')->name('mailableList');
     Route::get('view/{name}', 'MailablesController@viewMailable')->name('viewMailable');
     Route::get('edit/template/{name}', 'MailablesController@editMailable')->name('editMailable');
