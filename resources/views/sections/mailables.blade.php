@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="col-lg-10 col-md-12">
+<div class="col-lg-12 col-md-12">
                 
                 <div class="card my-4">
                     <div class="card-header d-flex align-items-center justify-content-between"><h5>{{ __('Mailables') }}</h5>
