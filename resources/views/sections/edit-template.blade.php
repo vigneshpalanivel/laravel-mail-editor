@@ -110,7 +110,7 @@
                             <p style="font-size: .9em;"><b class="font-weight-sixhundred">Template Name:</b> {{ ucfirst($template['template_view_name']) }}</p>
                             <p style="font-size: .9em;"><b class="font-weight-sixhundred">Template Skeleton:</b> {{ ucfirst($template['template_skeleton']) }}</p>
                             <p class="text-primary edit-template" style="cursor:pointer;"><i class="fas fa-trash"></i> Edit Details</p>
-                            <span class="text-danger delete-template" style="cursor:pointer;"><i class="fas fa-trash "></i> Delete Template</p>
+                            <p class="text-danger delete-template" style="cursor:pointer;"><i class="fas fa-trash "></i> Delete Template</p>
                         </div>
                     </div>
                 </div>
