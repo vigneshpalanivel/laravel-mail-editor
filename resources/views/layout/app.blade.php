@@ -442,7 +442,7 @@ footer a {
         <div class="row">
 
             <div class="col-md-12 back_view mb-4">
-                <a href="{{url('admin/')}}" class="btn btn-primary">Back</a>
+                <a href="{{url('admin/')}}" class="btn btn-primary">Back to Dashboard</a>
             </div>
 
             @if ( request()->route()->getName() !== 'newTemplate' && 
